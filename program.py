@@ -3,7 +3,7 @@ import getpass
 import shutil
 
 
-_author__ = 'Jurijus Pacalovas. I have written control programs.'
+_author__ = 'The program has been written Jurijus Pacalovas.'
 describe='This program can control computer by eyes and voice.'
 print(_author__)
 print(describe)
