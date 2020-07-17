@@ -4,7 +4,7 @@ import shutil
 
 
 _author__ = 'The program has been written Jurijus Pacalovas.'
-describe='This program can control computer by eyes and voice.'
+describe='This program can control other programs.'
 print(_author__)
 print(describe)
 
