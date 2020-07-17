@@ -5,6 +5,7 @@ import zmq
 from pymouse import PyMouse
 from tkinter import *
 
+
 _author__ = 'Jurijus Pacalovas. I have written programs.'
 describe='This program can control computer by eyes and voice.'
 print(_author__)
