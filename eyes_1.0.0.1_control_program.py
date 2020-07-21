@@ -1,6 +1,8 @@
 import cv2, time
 
-import pyautogui 
+import pyautogui
+
+from time import time
 
 first_frame = None
 _author__ = 'The control program has been written Jurijus Pacalovas.'
@@ -11,10 +13,17 @@ print("Program that control computer (control program). By this program you can 
 namez = input("Please, enter for move mouse 1, 2, 3, 4, 5, 6, 7 ")
 w1=0
 q1=0
+
+rt1=0
+rt2=0
+rt3=0
+rt4=0
+
+qmoveanywhere1=0
 if namez=="6":
     w1=0
     
-
+qmoveanywhere1=0
 if namez=="1":
     w1=100
     
@@ -40,7 +49,10 @@ if namez=="7":
 video = cv2.VideoCapture(0)
 
     
-
+x=0
+x1=0
+x2=0
+x = time()
 
 while True:
     check, frame = video.read()
@@ -87,12 +99,22 @@ while True:
         h=y+w1
        
         
-        time.sleep(1)  
-       
+        if x>=1:
+            rt1=x
+            rt2=y
+
+        if x>=2:
+            rt3=x
+            rt4=y
             
+            pyautogui.click(w, h)
+            
+            x=0
+            x1=0
+            x2=0
+            x = time()
+              
         
-        
-        pyautogui.click(w, h)
         pyautogui.moveTo(w, h, duration = 1) 
         
     
