@@ -5,7 +5,7 @@ import pyautogui
 from time import time
 
 first_frame = None
-_author__ = 'The control program has been written Jurijus Pacalovas.'
+_author__ = 'The control software has been written Jurijus Pacalovas.'
 
 print(_author__)
 
@@ -45,7 +45,8 @@ if namez=="5":
 
 if namez=="7":
     qmoveanywhere1=1
-    
+
+
 video = cv2.VideoCapture(0)
 
     
