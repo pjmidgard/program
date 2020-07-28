@@ -9,7 +9,7 @@ _author__ = 'The control software has been written Jurijus Pacalovas.'
 
 print(_author__)
 
-print("Program that control computer (control program). By this program you can control computer by eyes. I enjoy writing programs.")
+print("Program that control computer (control program). By this program you can control computer by eyes. I enjoy writing programs. I like writing programs.")
 namez = input("Please, enter for move mouse 1, 2, 3, 4, 5, 6, 7 ")
 w1=0
 q1=0
